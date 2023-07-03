@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" xmlns:tools="http://schemas.android.com/tools" package="com.unity3d.player">
+  <application android:label="@string/app_name" android:icon="@mipmap/app_icon" android:allowBackup="false" tools:replace="android:allowBackup">
+    <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:configChanges="locale|fontScale|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerActivity" android:excludeFromRecents="true" android:taskAffinity="">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+        <category android:name="com.oculus.intent.category.VR" />
+      </intent-filter>
+      <meta-data android:name="com.oculus.vr.focusaware" android:value="true" />
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+    </activity>
+    <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false" />  
+    <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only" />
+    <meta-data android:name="com.oculus.supportedDevices" android:value="quest|quest2|cambria"/>
+    <meta-data android:name="com.oculus.handtracking.frequency" android:value="LOW"/>
+    <meta-data android:name="com.oculus.handtracking.version" android:value="V2.1"/>
+    <meta-data android:name="com.oculus.ossplash" android:value="true" />
+  </application>
+  <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
+  <uses-feature android:name="oculus.software.handtracking" android:required="false" />
+  <uses-feature android:name="android.hardware.microphone" android:required="true" />
+  <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="true" />
+  <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+  <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
+  <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="true" />
+  <uses-feature android:name="com.oculus.software.body_tracking" android:required="true" />
+  <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+  <uses-feature android:name="oculus.software.face_tracking" android:required="true" />
+  <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+  <uses-feature android:name="oculus.software.eye_tracking" android:required="true" />
+  <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+  <uses-permission android:name="oculus.permission.handtracking" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.MICROPHONE" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" tools:node="remove" />
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

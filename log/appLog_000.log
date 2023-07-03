@@ -1,0 +1,30 @@
+[2023-06-30 14:08:37.648308] [info] ibinder-srv: start service service_preview_tool
+[2023-06-30 14:08:37.649315] [debug] ibinder-state: binder state start.
+[2023-06-30 14:08:37.649315] [info] ibinder-state: use port: 22023
+[2023-06-30 14:08:39.665741] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:39.665741] [info] ibinder-state: use port: 22024
+[2023-06-30 14:08:41.688281] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:41.688281] [info] ibinder-state: use port: 22025
+[2023-06-30 14:08:43.712987] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:43.712987] [info] ibinder-state: use port: 22023
+[2023-06-30 14:08:45.747544] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:45.747544] [info] ibinder-state: use port: 22024
+[2023-06-30 14:08:47.782577] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:47.782577] [info] ibinder-state: use port: 22025
+[2023-06-30 14:08:49.820254] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:49.820254] [info] ibinder-state: use port: 22023
+[2023-06-30 14:08:51.851701] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:51.851701] [info] ibinder-state: use port: 22024
+[2023-06-30 14:08:52.081748] [info] ibinder-srv: stop service service_preview_tool
+[2023-06-30 14:08:52.081748] [debug] ibinder-state: binder state stop.
+[2023-06-30 14:08:52.081748] [error] ibinder-state: exception: connect: Une opération a été tentée sur autre chose qu’un socket [system:10038 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:08:52.081748] [warning] ibinder-state: exit state thread.
+[2023-06-30 14:11:31.100595] [info] ibinder-srv: start service service_preview_tool
+[2023-06-30 14:11:31.100595] [debug] ibinder-state: binder state start.
+[2023-06-30 14:11:31.100595] [info] ibinder-state: use port: 22025
+[2023-06-30 14:11:33.131246] [error] ibinder-state: exception: connect: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée [system:10061 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:11:33.131246] [info] ibinder-state: use port: 22023
+[2023-06-30 14:11:34.624627] [info] ibinder-srv: stop service service_preview_tool
+[2023-06-30 14:11:34.624627] [debug] ibinder-state: binder state stop.
+[2023-06-30 14:11:34.624627] [error] ibinder-state: exception: connect: Une opération a été tentée sur autre chose qu’un socket [system:10038 at D:\code\PreviewTool\PreviewTool\pt_core\external\boost_1_81_0\boost/asio/detail/win_iocp_socket_service.hpp:632:5 in function 'connect']
+[2023-06-30 14:11:34.624627] [warning] ibinder-state: exit state thread.

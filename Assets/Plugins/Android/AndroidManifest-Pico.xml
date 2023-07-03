@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" xmlns:tools="http://schemas.android.com/tools" package="com.unity3d.player">
+  <application android:label="@string/app_name" android:icon="@mipmap/app_icon" android:allowBackup="true" android:supportsRtl="true" android:networkSecurityConfig="@xml/network_security_config" android:usesCleartextTraffic="true">
+    <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:configChanges="locale|fontScale|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerActivity" android:taskAffinity="">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+    </activity>
+    <meta-data android:name="pvr.app.type" android:value="vr"/>
+    <meta-data android:name="pvr.display.orientation" android:value="180"/>
+    <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false" />
+    <!-- China -->
+    <meta-data android:name="pico_app_id" android:value="9648bc44a6ede9d26a2b6fdb13d0c870"/>
+    <meta-data android:name="pico_app_key" android:value="9648bc44a6ede9d26a2b6fdb13d0c870"/>
+    <meta-data android:name="pico_scope" android:value="get_user_info"/>
+    <!-- Release area -->
+    <meta-data android:name="pico_app_id_foreign" android:value="9648bc44a6ede9d26a2b6fdb13d0c870"/>
+    <meta-data android:name="pico_app_key_foreign" android:value="9648bc44a6ede9d26a2b6fdb13d0c870"/>
+    <meta-data android:name="pico_scope_foreign" android:value="get_user_info"/>
+  </application>
+  <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
+  <!-- Not useful on this platform...
+  <uses-permission android:name="android.permission.RECORD_AUDIO" tools:node="remove" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" tools:node="remove" />
+  -->
+  <!--Vibrate-->
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <!--Set screen brightness -->
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <!--Change language-->
+  <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

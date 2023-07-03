@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e895462bcc57e4e93f3e8cb3e35d28, type: 3}
+  m_Name: BuildConfigPerPlatform
+  m_EditorClassIdentifier: 
+  BuildConfigs:
+  - Name: Oculus Quest
+    BuildConfig:
+      Platform: {fileID: 11400000, guid: d3605dc2b9b87714d9df57482917ab61, type: 2}
+      MinSDKVersion: 29
+      ProjectName: 
+      ApplicationIdentifier: io.realcast.online-platforms-test.quest
+      AppId: 4038407439503919
+      MSAAQuality: 2
+      VSyncCount: 0
+      AndroidWritePermission: 0
+      ColorSpace: 1
+      GraphicAPI: 21
+      Use32BitsDisplayBuffer: 1
+      RenderScale: 1
+      RunInBackground: 0
+      CustomAndroidManifest: {fileID: 4900000, guid: 613a0fd80c082404d96fbf6b6b761c5b, type: 3}
+      Splashscreen: {fileID: 2800000, guid: e55afe1bd6629f84bba2a532e19881f3, type: 3}
+      BuildTarget: 13
+      StripEngineCode: 1
+      StrippingLevel: 1
+      NamedTarget: 2
+      PlayerPrefabType: 0
+      AdditionnalScriptingDefineSymbols:
+      - RC_ANDROID_OVR
+      - RC_XPF_OVR
+      AdditionalDependencies:
+      - '"com.unity.xr.oculus": "3.2.3"'
+  - Name: Pico
+    BuildConfig:
+      Platform: {fileID: 11400000, guid: d5fffa5a951ae3843b0d4d8e4e86acc8, type: 2}
+      MinSDKVersion: 29
+      ProjectName: 
+      ApplicationIdentifier: io.realcast.online-platforms-test.pico
+      AppId: 
+      MSAAQuality: 2
+      VSyncCount: 0
+      AndroidWritePermission: 1
+      ColorSpace: 1
+      GraphicAPI: 21
+      Use32BitsDisplayBuffer: 1
+      RenderScale: 1
+      RunInBackground: 0
+      CustomAndroidManifest: {fileID: 4900000, guid: df44e05d0acc07c42882a8cdc6078f73, type: 3}
+      Splashscreen: {fileID: 2800000, guid: e55afe1bd6629f84bba2a532e19881f3, type: 3}
+      BuildTarget: 13
+      StripEngineCode: 1
+      StrippingLevel: 1
+      NamedTarget: 2
+      PlayerPrefabType: 0
+      AdditionnalScriptingDefineSymbols:
+      - RC_ANDROID_PICO
+      AdditionalDependencies:
+      - '"com.unity.xr.picoxr": "https://github.com/realcast/com.pico.unity.xr.git?path=/package#2.1.4"'
+  - Name: Qiyu
+    BuildConfig:
+      Platform: {fileID: 11400000, guid: e357e34faca338744890c56645c37c36, type: 2}
+      MinSDKVersion: 26
+      ProjectName: 
+      ApplicationIdentifier: io.realcast.online-platforms-test.qiyu
+      AppId: 
+      MSAAQuality: 2
+      VSyncCount: 1
+      AndroidWritePermission: 0
+      ColorSpace: 1
+      GraphicAPI: 11
+      Use32BitsDisplayBuffer: 1
+      RenderScale: 1
+      RunInBackground: 0
+      CustomAndroidManifest: {fileID: 4900000, guid: b0e041975d98a5340afba9cbe26308db, type: 3}
+      Splashscreen: {fileID: 2800000, guid: e55afe1bd6629f84bba2a532e19881f3, type: 3}
+      BuildTarget: 13
+      StripEngineCode: 1
+      StrippingLevel: 1
+      NamedTarget: 2
+      PlayerPrefabType: 0
+      AdditionnalScriptingDefineSymbols:
+      - RC_ANDROID_QIYU
+      AdditionalDependencies:
+      - '"com.unity.xr.qiyu": "https://github.com/realcast/com.unity.xr.qiyu.git?path=/package/XR#1.6.0"'
+      - '"com.qiyu.sdk.platform": "https://github.com/realcast/com.unity.xr.qiyu.git?path=/package/Platform#1.6.0"'
+  - Name: Steam
+    BuildConfig:
+      Platform: {fileID: 11400000, guid: fde662cf493c19946a5c100a6f6298ef, type: 2}
+      MinSDKVersion: 0
+      ProjectName: 
+      ApplicationIdentifier: 
+      AppId: 
+      MSAAQuality: 8
+      VSyncCount: 0
+      AndroidWritePermission: 0
+      ColorSpace: 1
+      GraphicAPI: 2
+      Use32BitsDisplayBuffer: 1
+      RenderScale: 1
+      RunInBackground: 1
+      CustomAndroidManifest: {fileID: 0}
+      Splashscreen: {fileID: 2800000, guid: e55afe1bd6629f84bba2a532e19881f3, type: 3}
+      BuildTarget: 19
+      StripEngineCode: 0
+      StrippingLevel: 0
+      NamedTarget: 0
+      PlayerPrefabType: 0
+      AdditionnalScriptingDefineSymbols:
+      - RC_WINDOWS_STEAM
+      - RC_XPF_OVR
+      - SET_STEAM_DRM
+      AdditionalDependencies:
+      - '"com.valvesoftware.unity.openvr": "https://github.com/realcast/com.valvesoftware.unity.openvr.git#1.1.4"'
+      - '"com.unity.xr.oculus": "3.2.3"'
+  - Name: Playstation VR2
+    BuildConfig:
+      Platform: {fileID: 11400000, guid: 87da043fc98ce664296e412c7cd936e7, type: 2}
+      MinSDKVersion: 0
+      ProjectName: 
+      ApplicationIdentifier: 
+      AppId: 
+      MSAAQuality: 8
+      VSyncCount: 0
+      AndroidWritePermission: 0
+      ColorSpace: 1
+      GraphicAPI: 27
+      Use32BitsDisplayBuffer: 1
+      RenderScale: 1
+      RunInBackground: 1
+      CustomAndroidManifest: {fileID: 0}
+      Splashscreen: {fileID: 2800000, guid: e55afe1bd6629f84bba2a532e19881f3, type: 3}
+      BuildTarget: 44
+      StripEngineCode: 0
+      StrippingLevel: 0
+      NamedTarget: 3
+      PlayerPrefabType: 0
+      AdditionnalScriptingDefineSymbols:
+      - RC_PS5_PSVR2
+      AdditionalDependencies:
+      - '"com.unity.xr.psvr2": "file:../sony-ps5nggc-packages/com.unity.xr.psvr2-1.2.1.tgz"'
+      - '"com.unity.render-pipelines.ps5": "file:../sony-ps5nggc-packages/com.unity.render-pipelines.ps5-1.7.0.tgz"'
+      - '"com.unity.commondialog.ps5": "file:../sony-ps5nggc-packages/com.unity.commondialog.ps5-0.0.9-preview.tgz"'
+      - '"com.unity.psn.ps5": "file:../sony-ps5nggc-packages/com.unity.psn.ps5-0.0.31-preview.tgz"'
+  - Name: YVR
+    BuildConfig:
+      Platform: {fileID: 11400000, guid: 936c879c473648b4ca7b2b35ccbae153, type: 2}
+      MinSDKVersion: 29
+      ProjectName: 
+      ApplicationIdentifier: io.realcast.online-platforms-test.yvr
+      AppId: 0
+      MSAAQuality: 4
+      VSyncCount: 0
+      AndroidWritePermission: 0
+      ColorSpace: 1
+      GraphicAPI: 11
+      Use32BitsDisplayBuffer: 1
+      RenderScale: 1
+      RunInBackground: 0
+      CustomAndroidManifest: {fileID: 4900000, guid: 54d08e304b74d4a4f8b0908d87a633a2, type: 3}
+      Splashscreen: {fileID: 2800000, guid: e55afe1bd6629f84bba2a532e19881f3, type: 3}
+      BuildTarget: 13
+      StripEngineCode: 1
+      StrippingLevel: 1
+      NamedTarget: 2
+      PlayerPrefabType: 0
+      AdditionnalScriptingDefineSymbols:
+      - RC_ANDROID_YVR
+      AdditionalDependencies:
+      - '"com.yvr.core": "https://github.com/realcast/com.unity.xr.yvr.git?path=/package/com.yvr.core#2.2.0"'
+      - '"com.yvr.platform": "https://github.com/realcast/com.unity.xr.yvr.git?path=/package/com.yvr.platform#2.2.0"'
+      - '"com.yvr.utilities": "https://github.com/realcast/com.unity.xr.yvr.git?path=/package/com.yvr.utilities#2.2.0"'
+  CommonScriptingDefineSymbols:
+  - LIV_UNIVERSAL_RENDER
+  - USE_PLAYFAB
+  - RC_ENABLE_LOGS
+  CommonDependencies:
+  - '"io.realcast.toolkit.core": "https://github.com/realcast/io.realcast.toolkit.core.git#1.2.31"'
+  - '"com.unity.2d.sprite": "1.0.0"'
+  - '"com.unity.analytics": "3.6.12"'
+  - '"com.unity.ide.visualstudio": "2.0.15"'
+  - '"com.unity.ide.vscode": "1.2.5"'
+  - '"com.unity.mobile.android-logcat": "1.2.3"'
+  - '"com.unity.performance.profile-analyzer": "1.1.1"'
+  - '"com.unity.test-framework": "1.1.31"'
+  - '"com.unity.textmeshpro": "3.0.6"'
+  - '"com.unity.timeline": "1.6.4"'
+  - '"com.unity.ugui": "1.0.0"'
+  - '"com.unity.xr.legacyinputhelpers": "2.1.10"'
+  - '"com.unity.xr.arfoundation": "5.0.2"'
+  - '"com.unity.xr.arsubsystems": "5.0.2"'
+  - '"com.unity.xr.management": "4.2.1"'
+  - '"com.unity.modules.ai": "1.0.0"'
+  - '"com.unity.modules.androidjni": "1.0.0"'
+  - '"com.unity.modules.animation": "1.0.0"'
+  - '"com.unity.modules.assetbundle": "1.0.0"'
+  - '"com.unity.modules.audio": "1.0.0"'
+  - '"com.unity.modules.cloth": "1.0.0"'
+  - '"com.unity.modules.director": "1.0.0"'
+  - '"com.unity.modules.imageconversion": "1.0.0"'
+  - '"com.unity.modules.imgui": "1.0.0"'
+  - '"com.unity.modules.jsonserialize": "1.0.0"'
+  - '"com.unity.modules.particlesystem": "1.0.0"'
+  - '"com.unity.modules.physics": "1.0.0"'
+  - '"com.unity.modules.physics2d": "1.0.0"'
+  - '"com.unity.modules.screencapture": "1.0.0"'
+  - '"com.unity.modules.terrain": "1.0.0"'
+  - '"com.unity.modules.terrainphysics": "1.0.0"'
+  - '"com.unity.modules.tilemap": "1.0.0"'
+  - '"com.unity.modules.ui": "1.0.0"'
+  - '"com.unity.modules.uielements": "1.0.0"'
+  - '"com.unity.modules.umbra": "1.0.0"'
+  - '"com.unity.modules.unitywebrequest": "1.0.0"'
+  - '"com.unity.modules.unitywebrequestassetbundle": "1.0.0"'
+  - '"com.unity.modules.unitywebrequestaudio": "1.0.0"'
+  - '"com.unity.modules.unitywebrequesttexture": "1.0.0"'
+  - '"com.unity.modules.unitywebrequestwww": "1.0.0"'
+  - '"com.unity.modules.vehicles": "1.0.0"'
+  - '"com.unity.modules.video": "1.0.0"'
+  - '"com.unity.modules.vr": "1.0.0"'
+  - '"com.unity.modules.wind": "1.0.0"'
+  - '"com.unity.modules.xr": "1.0.0"'
+  - '"com.unity.visualscripting": "1.7.8"'
+  - '"com.unity.localization": "1.3.2"'
+  - '"com.cratesmith.assetui": "https://github.com/Cratesmith/Cratesmith.AssetUI.git"'
+  - '"com.unity.xr.interaction.toolkit": "2.2.0"'
+  - '"com.unity.xr.core-utils": "2.1.0"'
+  - '"com.unity.render-pipelines.universal": "12.1.8"'
+  - '"io.realcast.toolkit.online-platforms": "https://github.com/realcast/io.realcast.toolkit.online-platforms.git?path=/Assets/io.realcast.toolkit.online-platforms#devToolkit"'

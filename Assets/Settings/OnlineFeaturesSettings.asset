@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13bc4c5e8a756a446bd56bdaf326d9ec, type: 3}
+  m_Name: OnlineFeaturesSettings
+  m_EditorClassIdentifier: 
+  _loggedInUsernameParameter: {fileID: 11400000, guid: 48f0b999b2224dc4d9c3779844b57dfe, type: 2}
+  _loggedInUserIdParameter: {fileID: 11400000, guid: a0cf504d22f3de541820fa7b5ec85b2b, type: 2}
+  _loggedInUserOnlineIdParameter: {fileID: 11400000, guid: c13546c797102e04dbbbf35f6a3b2c0e, type: 2}
+  _systemCountryCodeParameter: {fileID: 11400000, guid: fed20debed3988f41b6926cc01054abe, type: 2}
+  _systemLanguageCodeParameter: {fileID: 11400000, guid: 2a4a00e2396ddff4e85e5a8ad8883089, type: 2}
+  _isLatestGameVersionParameter: {fileID: 11400000, guid: 9ecf9655a3d977d41846d01b1160f2c1, type: 2}
