@@ -18,4 +18,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2b9c981ca69f42f419254501c5ca79f4, type: 2}
   - {fileID: 11400000, guid: 48b15bce84a26984d8ed71702f9663c4, type: 2}
   - {fileID: 11400000, guid: 4993ce7e49e760e4ea412179a98e0e5c, type: 2}
+  - {fileID: 11400000, guid: 59d7cc90e2fa5ea4fac0e9539ac5041c, type: 2}
   CurrentPlatform: {fileID: 11400000, guid: 1f07655125adbf24191da10d4ab4e243, type: 2}

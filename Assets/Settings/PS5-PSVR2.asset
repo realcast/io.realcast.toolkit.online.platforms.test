@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RunTimePlatform: 26000000
   SubPlatform: 10
-  CameraRig: {fileID: 0}
+  CameraRig: {fileID: 880771343654715733, guid: 205a722619e3cbd4b82895979e45f594, type: 3}
   RefreshRate: 0
   Name: 
   Icon: {fileID: 0}
